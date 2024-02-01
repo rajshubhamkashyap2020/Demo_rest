@@ -1,0 +1,13 @@
+package cicd.example.restdemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication(scanBasePackages = { "cicd.example"} )
+public class RestdemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestdemoApplication.class, args);
+	}
+
+}
